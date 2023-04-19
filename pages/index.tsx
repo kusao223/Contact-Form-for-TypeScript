@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 export default function Home() { 
-    const text="https://www.hexabase.com/privacy-policy/"
   return(
     <>
         <Head>
@@ -15,7 +14,7 @@ export default function Home() {
             <div className='main-form'>
                 <div className='header'>
                     <Image
-                    src="/Hexabase-Top.png"
+                    src="#"
                     alt="copany-Logo"
                     className="Top_Logo"
                     width={350}
@@ -118,7 +117,7 @@ export default function Home() {
                             required />
                             <a 
                             id='text' 
-                            href={text}
+                            href="#"
                             >
                             プライバシーポリシー
                             </a>
