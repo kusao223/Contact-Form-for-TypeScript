@@ -105,6 +105,12 @@ html {
   margin-right: 2%;
 }
 
+.contact-form .form-grupe .Errer_Message p {
+  color: rgb(255, 0, 0);
+  font-size: 75%;
+  padding-left: 14%;
+}
+
 #top {
   padding-top: 5%;
 }
